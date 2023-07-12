@@ -1,0 +1,45 @@
+body{
+  background: rgb(131,58,180);
+  background: wheat;  
+}
+.window{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+#nav{
+  position: relative;
+}
+
+.box{
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+  border-radius: 25px;;
+}
+
+.g-btn{
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+
+.g-btn > div,.g-btn > div > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
+ 
+.button{
+  width: fit-content;
+} 
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
